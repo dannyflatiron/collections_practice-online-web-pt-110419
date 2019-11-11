@@ -26,6 +26,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.join('')
-  binding.pry
+  string = array.join('')
+  string.chars
+  # binding.pry
 end
