@@ -29,6 +29,7 @@ def kesha_maker(array)
   string = array.join(' ')
   string.each do |n|
     n[3] = "$"
+    binding.pry
   end
-  binding.pry
+
 end
