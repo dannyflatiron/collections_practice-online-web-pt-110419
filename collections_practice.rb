@@ -27,4 +27,5 @@ end
 
 def kesha_maker(array)
   array.join('')
+  binding.pry
 end
