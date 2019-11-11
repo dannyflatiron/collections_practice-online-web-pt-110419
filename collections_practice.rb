@@ -14,12 +14,8 @@ def sort_array_char_count(array)
   array.sort_by {|d| d.length}
 end
 
-# def swap_elements(array)
-#   # array[0], array[1], array[2] = array[0], array[2], array[1]
-#   array[1], array[2] = array[2], array[1]
-# end
-
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
+  #array needs to be explicitly mentioned because the test is asking for the value of the entire array not just two indexes
 end
