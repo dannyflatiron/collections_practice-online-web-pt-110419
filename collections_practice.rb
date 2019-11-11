@@ -20,5 +20,5 @@ def swap_elements(array)
   #array needs to be explicitly mentioned because the test is asking for the value of the entire array not just two indexes
 end
 
-def reverse_array
+def reverse_array(array)
 end
