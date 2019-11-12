@@ -33,6 +33,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select {|n| n[0] = "a"}
+  array.select {|n| n.start_with? "a"}
   # binding.pry
 end
