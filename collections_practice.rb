@@ -32,6 +32,6 @@ def kesha_maker(array)
   # binding.pry
 end
 
-def find_a
+def find_a(array)
 
 end
