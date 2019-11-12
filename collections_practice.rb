@@ -34,5 +34,5 @@ end
 
 def find_a(array)
   array.select {|n| n[0] = "a"}
-  binding.pry
+  # binding.pry
 end
