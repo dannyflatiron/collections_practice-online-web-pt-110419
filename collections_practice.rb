@@ -26,7 +26,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  string = array.join('')
-  string.chars
+  array.each do |n|
+    n[2] = "$"
   # binding.pry
 end
