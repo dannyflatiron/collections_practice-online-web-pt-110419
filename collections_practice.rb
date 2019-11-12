@@ -36,3 +36,6 @@ def find_a(array)
   array.select {|n| n.start_with? "a"}
   # binding.pry
 end
+
+def sum_array(array)
+end
