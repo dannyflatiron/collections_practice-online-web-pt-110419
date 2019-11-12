@@ -34,6 +34,7 @@ end
 
 def find_a(array)
   array.select do |n|
-    return n if n[0] = "a"
+    if n[0] = "a"
+      puts n
   end
 end
